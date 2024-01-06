@@ -448,8 +448,8 @@
               "yum remove -y java-1.7.0\n",
 
               "# Install Jenkins\n",
-              "wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo\n",
-              "rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key\n",
+              "  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo\n",
+              "  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key\n",
               "yum install -y jenkins\n",
 
               "# Add Jenkins user to Docker group\n",
