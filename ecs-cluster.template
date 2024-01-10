@@ -8,7 +8,7 @@
       "pubsubnet2": {"cidr" :"10.0.1.0/24"}
     },
     "AWSRegionToAMI" : {
-      "us-east-1"      : { "AMIID" : "ami-40286957" },
+      "us-east-1"      : { "AMIID" : "ami-0005e0cfe09cc9050" },
       "us-west-1"      : { "AMIID" : "ami-20fab440" },
       "us-west-2"      : { "AMIID" : "ami-562cf236" },
       "eu-west-1"      : { "AMIID" : "ami-175f1964" },
